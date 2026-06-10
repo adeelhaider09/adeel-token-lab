@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 @import "tailwindcss" source(none) prefix(tw);
 
 @source "../../layout/**/*.liquid";
@@ -12,9 +13,7 @@
   --breakpoint-desktop: 990px;
 }
 
-/* KIK Tokens */
 :root {
-  /* Colors */
   --kik-color-action-primary: #002b4e;
   --kik-color-action-primary-hover: #ffffff;
   --kik-color-action-secondary: #ffffff;
@@ -39,7 +38,6 @@
   --kik-color-text-secondary: #4d6b83;
   --kik-color-text-tertiary: #616568;
 
-  /* Radius */
   --kik-radius-none: 0rem;
   --kik-radius-xsm: 0.25rem;
   --kik-radius-sm: 0.5rem;
@@ -49,7 +47,6 @@
   --kik-radius-2xl: 2.5rem;
   --kik-radius-pill: 6.25rem;
 
-  /* Spacing */
   --kik-spacing-page-full: 0rem;
   --kik-spacing-2: 0.125rem;
   --kik-spacing-4: 0.25rem;
@@ -69,7 +66,6 @@
   --kik-spacing-section-md: 4rem;
   --kik-spacing-section-lg: 6rem;
 
-  /* Type */
   --kik-text-size-body-xsm: 0.75rem;
   --kik-text-size-body-sm: 0.875rem;
   --kik-text-size-body-md: 1rem;
@@ -81,9 +77,10 @@
   --kik-text-size-h2: 2.25rem;
   --kik-text-size-h1: 2.75rem;
 
-  /* Fonts */
-  --kik-text-font-body: Poppins;
-  --kik-text-font-heading: Poppins;
+  --kik-text-font-body: "Poppins";
+  --kik-text-font-heading: "Poppins";
+  --kik-line-height-heading: 1.08;
+  --kik-line-height-body: 1.55;
 }
 
 @media screen and (max-width: 749px) {
@@ -97,9 +94,9 @@
     --kik-spacing-sm: 0.25rem;
     --kik-spacing-md: 0.5rem;
     --kik-spacing-lg: 1rem;
-    --kik-spacing-xl: 1.5rem;
     --kik-spacing-page-default: 1rem;
     --kik-spacing-page-semi-full: 1rem;
+    --kik-spacing-xl: 1.5rem;
     --kik-spacing-section-sm: 2rem;
     --kik-spacing-section-md: 3rem;
     --kik-spacing-section-lg: 3rem;
